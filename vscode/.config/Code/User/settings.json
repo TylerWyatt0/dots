@@ -1,0 +1,40 @@
+{
+    "workbench.commandPalette.showAskInChat": false,
+    "chat.agent.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "terminal.integrated.initialHint": false,
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.podmancompose",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Quiet Light",
+    "dev.containers.dockerComposePath": "podman-compose",
+    "dev.containers.dockerPath": "podman",
+    "window.restoreWindows": "none",
+    "remote.autoForwardPortsSource": "hybrid",
+    "python.defaultInterpreterPath": "/bin/python3",
+    "git.blame.editorDecoration.enabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "latex-workshop.formatting.latex": "tex-fmt",
+    "python.venvFolders": [
+        "~/Code/venvs"
+    ],
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "python.languageServer": "Default",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${profileName}${separator}${appName}",
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.compact": true,
+    "chat.disableAIFeatures": true,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
+    "extensions.autoUpdate": false
+}
