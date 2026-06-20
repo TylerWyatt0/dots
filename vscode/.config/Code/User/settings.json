@@ -9,7 +9,7 @@
     "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
     "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.podmancompose",
     "git.autofetch": true,
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Material Deep Ocean",
     "dev.containers.dockerComposePath": "podman-compose",
     "dev.containers.dockerPath": "podman",
     "window.restoreWindows": "none",
@@ -36,5 +36,5 @@
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "workbench.browser.showInTitleBar": false,
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": "off"
 }
