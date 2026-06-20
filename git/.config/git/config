@@ -1,0 +1,8 @@
+[user]
+	email = tylerwyatt0@protonmail.com
+	name = Tyler Wyatt
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+	autoSquash = true
