@@ -70,11 +70,8 @@ ${debian_chroot:+(${debian_chroot})}\
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# opencode
-export PATH=/home/tyler/.opencode/bin:$PATH
-
-# Created by `pipx` on 2026-01-30 02:40:45
 export PATH="$PATH:/home/tyler/.local/bin"
 eval "$(uv generate-shell-completion zsh)"
 
-
+# opencode
+export PATH=/home/tyler/.opencode/bin:$PATH

@@ -18,6 +18,3 @@ export PYTHON_HISTORY="$XDG_DATA_HOME/python/history"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
-
-# Created by `pipx` on 2026-01-30 02:40:45
-export PATH="$PATH:/home/tyler/.local/bin"

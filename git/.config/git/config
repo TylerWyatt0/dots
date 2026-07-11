@@ -6,3 +6,5 @@
 [rebase]
 	autoStash = true
 	autoSquash = true
+[credential]
+	helper = store
