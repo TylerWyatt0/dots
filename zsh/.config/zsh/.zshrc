@@ -54,7 +54,8 @@ setopt globdots # include dotfiles
 setopt extended_glob # match ~ # ^
 setopt interactive_comments # allow comments in shell
 setopt prompt_subst
-unsetopt prompt_sp # don't autoclean blanklines
+# unsetopt prompt_sp # don't autoclean blanklines
+#export PROMPT_EOL_MARK=""
 stty stop undef # disable accidental ctrl s
 
 autoload -Uz vcs_info

@@ -1,4 +1,7 @@
 {
+    "github.copilot.enable": { "*": false },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.inlineSuggest.enabled": false,
     "workbench.commandPalette.showAskInChat": false,
     "chat.agent.enabled": false,
     "chat.commandCenter.enabled": false,
@@ -31,13 +34,17 @@
     "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${profileName}${separator}${appName}",
     "files.autoSave": "afterDelay",
     "workbench.activityBar.compact": true,
-    "chat.disableAIFeatures": true,
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "workbench.browser.showInTitleBar": false,
     "extensions.autoUpdate": "off",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "workbench.colorTheme": "Material Deep Ocean"
+    "workbench.colorTheme": "Material Deep Ocean",
+    "nix.enableLanguageServer": true,
+    "nix.formatterPath": "nixfmt",
+    "nix.serverPath": "nixd",
+    "workbench.editor.empty.hint": "hidden",
+    "chat.disableAIFeatures": true
 }
